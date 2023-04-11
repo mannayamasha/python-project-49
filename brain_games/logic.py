@@ -17,5 +17,6 @@ def rules(game):
             if i == 3:
                 print(f'Congratulations, {name}!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was "
+                  f"'{correct_answer}'.\nLet's try again, {name}!")
             break
